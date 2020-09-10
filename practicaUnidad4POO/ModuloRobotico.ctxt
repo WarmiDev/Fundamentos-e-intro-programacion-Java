@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ModuloRobotico
+comment1.params=
+comment1.target=ModuloRobotico()
+comment2.params=
+comment2.target=java.lang.String\ crearReflejo()
+comment3.params=
+comment3.target=java.lang.String\ agregarSavia()
+comment4.params=
+comment4.target=java.lang.String\ retirarTodoLoAlmacenado()
+comment5.params=
+comment5.target=void\ encenderMaquina()
+comment6.params=
+comment6.target=void\ apagarMaquina()
+comment7.params=
+comment7.target=int\ getUnidadesSavia()
+comment8.params=
+comment8.target=int\ getCantidadReflejos()
+numComments=9

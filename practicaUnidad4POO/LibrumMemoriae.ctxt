@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=LibrumMemoriae
+comment1.params=tareaInicial
+comment1.target=LibrumMemoriae(java.lang.String)
+comment2.params=nuevaTarea
+comment2.target=java.lang.String\ agregarActividad(java.lang.String)
+comment3.params=
+comment3.target=void\ marcarTareaConcluidad()
+comment4.params=
+comment4.target=boolean\ getEstadoTarea()
+comment5.params=
+comment5.target=int\ getContadorTareas()
+comment6.params=
+comment6.target=java.lang.String\ getTareaActual()
+numComments=7
