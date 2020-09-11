@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Somnia
+comment1.params=alcance\ durabilidad
+comment1.target=Somnia(int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ observar()
+comment3.params=somnia
+comment3.target=Somnia\ combinarConOtroSomnia(Somnia)
+numComments=4
