@@ -1,19 +1,27 @@
 import java.util.ArrayList;
-public class ComplejoTuristico{
+public class ComplejoTuristico {
+    private ArrayList<Persona> listaClientes;
+    private ArrayList<Persona> listaEspera;
+    private int limiteMax;
     public ComplejoTuristico(){
-        boolean puerta; //true: abierta  false:cerrada
-        ArrayList<String> listaClientes=new ArrayList<String>();
-        ArrayList<String> listaEspera=new ArrayList<String>();
+        listaClientes= new ArrayList();
+        listaEspera= new ArrayList();
+        limiteMax=3;
     }
-    public void registrar(Cliente cliente){
-        /*if(lleno) 
-          * anotarEnEspera();
-       * else
-          * ingresar();
-            */      
+    public boolean ingresarComplejo(Persona p){
+        boolean res=false;
+        if(listaClientes.size()<3){
+            listaClientes.add(p);
+            res=true;
+        }else{
+            listaEspera.add(p);
+        }
+        return res;
     }
-    public void ingresar(){
-    }
-    public void anotarEnEspera(){
+    public void salirComplejo(Persona p){
+        listaClientes.remove(p);
+        if(!listaEspera.isEmpty()){
+            listaClientes.add(listaEspera.get(0));
+        }
     }
 }

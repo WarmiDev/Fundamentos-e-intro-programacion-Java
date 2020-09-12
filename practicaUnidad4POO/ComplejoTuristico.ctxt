@@ -2,10 +2,8 @@
 comment0.target=ComplejoTuristico
 comment1.params=
 comment1.target=ComplejoTuristico()
-comment2.params=cliente
-comment2.target=void\ registrar(Cliente)
-comment3.params=
-comment3.target=void\ ingresar()
-comment4.params=
-comment4.target=void\ anotarEnEspera()
-numComments=5
+comment2.params=p
+comment2.target=boolean\ ingresarComplejo(Persona)
+comment3.params=p
+comment3.target=void\ salirComplejo(Persona)
+numComments=4

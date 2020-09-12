@@ -1,12 +1,10 @@
 public class ModuloRobotico{
     private int capacidadUnidadesSavia, capacidadReflejos;
-    private int unidadesSaviaPorReflejo;
     private int cantidadUnidadesSavia, cantidadReflejos;
     private boolean botonEncendido;
     public ModuloRobotico(){
         capacidadUnidadesSavia=90;
         capacidadReflejos=20;
-        unidadesSaviaPorReflejo=50;
         cantidadUnidadesSavia=0;
         cantidadReflejos=0;
         botonEncendido=false;
@@ -14,7 +12,7 @@ public class ModuloRobotico{
     public String crearReflejo(){
         String msg;
         if(botonEncendido){
-            if(cantidadUnidadesSavia>50){
+            if(cantidadUnidadesSavia>50&&cantidadReflejos<capacidadReflejos){
                 cantidadReflejos++;
                 cantidadUnidadesSavia-=50;
                 msg="La accion ha sido completada con exito.";
@@ -29,7 +27,7 @@ public class ModuloRobotico{
     public String agregarSavia(){
         String msg;
         if(botonEncendido){
-            if(cantidadUnidadesSavia<90){
+            if(cantidadUnidadesSavia<capacidadUnidadesSavia){
                 cantidadUnidadesSavia++;
                 msg="La accion ha sido completada con exito.";
             }
@@ -40,7 +38,7 @@ public class ModuloRobotico{
                 msg="La maquina esta apagada";
         return msg;
     }
-    public String retirarTodoLoAlmacenado(){ //o debe retirarse uno por uno?
+    public String retirarTodoLoAlmacenado(){
         cantidadUnidadesSavia=0;
         cantidadReflejos=0;
         return "La accion ha sido completada con exito.";

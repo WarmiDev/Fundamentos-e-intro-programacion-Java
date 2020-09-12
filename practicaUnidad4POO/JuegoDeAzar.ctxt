@@ -2,10 +2,6 @@
 comment0.target=JuegoDeAzar
 comment1.params=
 comment1.target=JuegoDeAzar()
-comment2.params=
-comment2.target=void\ jugar()
-comment3.params=
-comment3.target=int\ pedirCoordenada()
-comment4.params=x\ y
-comment4.target=java.lang.String\ comparar(int,\ int)
-numComments=5
+comment2.params=x\ y
+comment2.target=java.lang.String\ jugar(int,\ int)
+numComments=3

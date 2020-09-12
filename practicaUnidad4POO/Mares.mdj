@@ -129,7 +129,7 @@
 											"top": 206,
 											"width": 174.484375,
 											"height": 13,
-											"text": "-a: int",
+											"text": "-coordenadaEnX: int",
 											"horizontalAlignment": 0
 										},
 										{
@@ -146,7 +146,7 @@
 											"top": 221,
 											"width": 174.484375,
 											"height": 13,
-											"text": "-b: int",
+											"text": "-coordenadaEnY: int",
 											"horizontalAlignment": 0
 										},
 										{
@@ -163,7 +163,7 @@
 											"top": 236,
 											"width": 174.484375,
 											"height": 13,
-											"text": "-i: int",
+											"text": "-intentos: int",
 											"horizontalAlignment": 0
 										}
 									],
@@ -192,6 +192,7 @@
 											"model": {
 												"$ref": "AAAAAAF0eQxrtPqka28="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
 											"left": 301,
 											"top": 259,
@@ -209,6 +210,7 @@
 											"model": {
 												"$ref": "AAAAAAF0erxrlvue4ik="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
 											"left": 301,
 											"top": 274,
@@ -228,10 +230,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 301,
-											"top": 289,
+											"top": 261,
 											"width": 174.484375,
 											"height": 13,
-											"text": "+comparar()",
+											"text": "+jugar(x: int, y: int)",
 											"horizontalAlignment": 0
 										}
 									],
@@ -239,7 +241,7 @@
 									"left": 296,
 									"top": 254,
 									"width": 184.484375,
-									"height": 53
+									"height": 25
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -308,7 +310,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF0eQTP4jGt4Hg="
 							},
-							"name": "a",
+							"name": "coordenadaEnX",
 							"visibility": "private",
 							"type": "int"
 						},
@@ -318,7 +320,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF0eQTP4jGt4Hg="
 							},
-							"name": "b",
+							"name": "coordenadaEnY",
 							"visibility": "private",
 							"type": "int"
 						},
@@ -328,7 +330,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF0eQTP4jGt4Hg="
 							},
-							"name": "i",
+							"name": "intentos",
 							"visibility": "private",
 							"type": "int"
 						}
@@ -356,7 +358,27 @@
 							"_parent": {
 								"$ref": "AAAAAAF0eQTP4jGt4Hg="
 							},
-							"name": "comparar"
+							"name": "jugar",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF0gr+EpJw0B3Y=",
+									"_parent": {
+										"$ref": "AAAAAAF0erzk3Pul2ks="
+									},
+									"name": "x",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF0gr/M4Jw55e4=",
+									"_parent": {
+										"$ref": "AAAAAAF0erzk3Pul2ks="
+									},
+									"name": "y",
+									"type": "int"
+								}
+							]
 						}
 					]
 				}
