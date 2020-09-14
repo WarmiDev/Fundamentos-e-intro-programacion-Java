@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=DiasSemana
+comment1.params=n
+comment1.target=java.lang.String\ diaSemana(int)
+numComments=2
