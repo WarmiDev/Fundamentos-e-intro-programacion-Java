@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Cumpleanios
+comment1.params=fecha
+comment1.target=Cumpleanios(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getDia()
+comment3.params=
+comment3.target=java.lang.String\ geMes()
+comment4.params=
+comment4.target=java.lang.String\ getAnio()
+comment5.params=
+comment5.target=java.lang.String\ fechaEnLiteral()
+numComments=6

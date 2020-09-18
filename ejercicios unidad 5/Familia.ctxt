@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Familia
+comment1.params=h1\ h2\ h3
+comment1.target=Familia(Hijo,\ Hijo,\ Hijo)
+comment2.params=
+comment2.target=void\ establecerOrdenHijos()
+comment3.params=
+comment3.target=java.lang.String\ getMayor()
+comment4.params=
+comment4.target=java.lang.String\ getMediano()
+comment5.params=
+comment5.target=java.lang.String\ getMenor()
+numComments=6

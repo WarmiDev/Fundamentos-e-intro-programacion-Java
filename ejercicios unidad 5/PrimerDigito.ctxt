@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PrimerDigito
+comment1.params=n
+comment1.target=PrimerDigito(int)
+comment2.params=
+comment2.target=java.lang.String\ calcPrimerDigito()
+numComments=3

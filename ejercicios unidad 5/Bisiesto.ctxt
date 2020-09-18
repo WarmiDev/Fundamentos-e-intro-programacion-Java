@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Bisiesto
+comment1.params=anio
+comment1.target=Bisiesto(int)
+comment2.params=
+comment2.target=java.lang.String\ definirSiBisiesto()
+numComments=3

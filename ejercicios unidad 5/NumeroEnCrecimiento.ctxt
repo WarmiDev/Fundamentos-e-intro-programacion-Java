@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=NumeroEnCrecimiento
+comment1.params=num
+comment1.target=NumeroEnCrecimiento(int)
+comment2.params=
+comment2.target=java.lang.String\ definirSiCrecimiento()
+numComments=3
