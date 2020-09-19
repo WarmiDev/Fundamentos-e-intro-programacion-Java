@@ -6,7 +6,7 @@ public class Familia{
         this.h2=h2;
         this.h3=h3;
     }
-    public void establecerOrdenHijos(){        
+    public void establecerOrdenHijos(){     
         if(h1.edad>h2.edad&&h2.edad>h3.edad){
             mayor=h1;
             mediano=h2;
