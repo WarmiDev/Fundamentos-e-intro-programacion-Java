@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=EjemploFor
+comment1.params=perimetro\ cantVueltas
+comment1.target=int\ calcularGastoEnergia(int,\ int)
+comment2.params=perimetro\ cantVueltas
+comment2.target=int\ calcularGastoEnergiaWhile(int,\ int)
+numComments=3

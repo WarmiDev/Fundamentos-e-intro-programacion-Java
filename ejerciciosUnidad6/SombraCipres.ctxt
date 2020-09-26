@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SombraCipres
+comment1.params=sombraInicial\ cantHorasAPredecir
+comment1.target=SombraCipres(int,\ int)
+comment2.params=
+comment2.target=int[]\ predecir()
+numComments=3

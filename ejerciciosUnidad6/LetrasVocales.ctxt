@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=LetrasVocales
+comment1.params=letra
+comment1.target=LetrasVocales(char)
+comment2.params=
+comment2.target=int\ distanciaVocalMasProxima()
+numComments=3
