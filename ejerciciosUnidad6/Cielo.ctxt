@@ -2,6 +2,8 @@
 comment0.target=Cielo
 comment1.params=cantEstrellas
 comment1.target=Cielo(int)
-comment2.params=
-comment2.target=int[]\ getEstadoEstrellas()
-numComments=3
+comment2.params=cantEstrellas
+comment2.target=Cielo(int[])
+comment3.params=
+comment3.target=int[]\ getEstadoEstrellas()
+numComments=4

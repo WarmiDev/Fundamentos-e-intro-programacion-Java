@@ -23,4 +23,7 @@ public class SopaLetras{
         }
         return "Si, es posible formar la palabra deseada";
     }
+    public String evaluarPalabra2(){
+        return primerasLetras.contains(palabra)?"Es posible":"No es posible";
+    }
 }

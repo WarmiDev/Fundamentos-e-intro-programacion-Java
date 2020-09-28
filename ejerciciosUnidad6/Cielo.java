@@ -6,6 +6,9 @@ public class Cielo{
             estadoEstrellas[i]=(int)(Math.random()*2);
         }
     }
+    public Cielo(int[] cantEstrellas){
+        estadoEstrellas=cantEstrellas;
+    }
     public int[] getEstadoEstrellas(){
         return estadoEstrellas;
     }
