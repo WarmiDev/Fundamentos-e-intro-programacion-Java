@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CuadradoMagico
+comment1.params=num
+comment1.target=int[]\ generarCuadradoMagico(int)
+comment2.params=n
+comment2.target=int\ tam(int)
+comment3.params=n
+comment3.target=int\ recorrer(int)
+numComments=4
