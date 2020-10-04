@@ -9,8 +9,8 @@ public class CuadradoMagico{
         return cuadrado;
     }
     private int tam(int n){
-        int cont=1;
-        while(n/10>0){
+        int cont=0;
+        while(n>0){
             cont++;
             n/=10;
         }

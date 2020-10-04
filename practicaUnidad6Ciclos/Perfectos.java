@@ -4,7 +4,6 @@ public class Perfectos{
         for(int i=1;i<num;i++){
             if(num%i==0) suma+=i;
         }
-        if(suma==num) return true;
-        else return false;
+        return suma==num?true:false;
     }
 }

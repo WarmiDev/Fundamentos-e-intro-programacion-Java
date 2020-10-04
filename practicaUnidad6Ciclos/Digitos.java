@@ -1,7 +1,7 @@
 public class Digitos{
     public int contarDigitos(int num){
-        int contDig=1;
-        while(num/10>0){
+        int contDig=0;
+        while(num>0){
             contDig++;
             num/=10;
         }
