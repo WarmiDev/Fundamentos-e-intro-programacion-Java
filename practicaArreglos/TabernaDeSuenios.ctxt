@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TabernaDeSuenios
+comment1.params=tamTaberna
+comment1.target=TabernaDeSuenios(int)
+comment2.params=nom
+comment2.target=java.lang.String\ buscar(java.lang.String)
+comment3.params=suenio
+comment3.target=java.lang.String\ almacenar(Suenio)
+comment4.params=posicion
+comment4.target=java.lang.String\ eliminar(int)
+comment5.params=
+comment5.target=java.lang.String[]\ verSueniosAlmacenados()
+numComments=6

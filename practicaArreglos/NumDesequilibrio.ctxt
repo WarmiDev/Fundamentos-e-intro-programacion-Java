@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=NumDesequilibrio
+comment1.params=arreglo
+comment1.target=NumDesequilibrio(int[])
+comment2.params=
+comment2.target=java.lang.String\ hallarNumeroDelDesequilibrio()
+comment3.params=arr
+comment3.target=int\ sumaElementos(int[])
+numComments=4
