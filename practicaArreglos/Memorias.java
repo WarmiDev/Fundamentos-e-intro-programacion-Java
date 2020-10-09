@@ -65,6 +65,8 @@ public class Memorias{
         }
     }
     public String hallarRecuerdoDeLuz(){
-        return mente[mente.length-1]==null?"El metodo no se puede invocar porque aun hay espacios vacios en el arreglo":mente[mente.length/2].getDescripcion();
+        return mente[mente.length-1]==null?
+            "El metodo no se puede invocar porque aun hay espacios vacios en el arreglo":
+            mente[mente.length/2].getDescripcion();
     }
 }

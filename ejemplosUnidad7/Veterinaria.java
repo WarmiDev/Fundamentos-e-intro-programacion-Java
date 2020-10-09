@@ -7,6 +7,51 @@ public class Veterinaria{
         gatos=new Gato[tam];
         index=0;
     }
+    public String busquedaBinaria(double buscado){
+        ordenarGatosPorPeso();
+        String res="No se encontre el gato";
+        int li=0,ls=gatos.length-1,medio=(li+ls)/2;
+        boolean bandera=false;
+        while(bandera==false&&li<=ls){
+            Gato actual=gatos[medio];
+            double pesoActual=actual.getPeso();
+            if(pesoActual==buscado){
+                bandera=true;
+                res=actual.getNombre();
+            }else{
+                if(pesoActual>buscado) ls=medio-1;
+                else li=medio+1;
+                medio=(li+ls)/2;
+            }
+        }
+        return res;
+    }
+    public void ordenarGatosPorPeso(){
+        for(int i=1;i<=gatos.length;i++){
+            for(int j=0;j<=gatos.length-1-i;j++){
+                Gato actual=gatos[j];
+                double pesoActual=actual.getPeso();
+                Gato vecino=gatos[j+1];
+                double pesoVecino=vecino.getPeso();
+                if(pesoActual>pesoVecino){
+                    Gato aux=gatos[j];
+                    gatos[j]=gatos[j+1];
+                    gatos[j+1]=aux;
+                }
+            }
+        }
+    }
+    public void burbuja(){
+        for(int i=1;i<=ganancias.length;i++){
+            for(int j=0;j<=ganancias.length-1-i;j++){
+                if(ganancias[j]>ganancias[j+1]){
+                    int aux=ganancias[j];
+                    ganancias[j]=ganancias[j+1];
+                    ganancias[j+1]=aux;
+                }
+            }
+        }
+    }
     public boolean agregarGatos(Gato nuevo){
         boolean res=false;
         for(int i=0;i<gatos.length && !res;i++){
