@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Recorridos
+comment1.params=tam
+comment1.target=void\ ajedrez(int)
+comment2.params=tam
+comment2.target=void\ diagonalSecundaria(int)
+comment3.params=tam
+comment3.target=void\ diagonalPrincipal(int)
+comment4.params=mat
+comment4.target=void\ mostrar(int[][])
+numComments=5

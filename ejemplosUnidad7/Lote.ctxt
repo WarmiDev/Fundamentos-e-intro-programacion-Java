@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Lote
+comment1.params=cant\ prop
+comment1.target=Lote(int,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getPropietario()
+comment3.params=
+comment3.target=int\ getCantPersonas()
+comment4.params=p
+comment4.target=void\ setPropietario(java.lang.String)
+comment5.params=c
+comment5.target=void\ setCantPersonas(int)
+numComments=6
