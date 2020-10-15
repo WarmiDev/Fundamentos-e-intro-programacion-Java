@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Cartas
+comment1.params=tamTablero
+comment1.target=Cartas(int)
+comment2.params=
+comment2.target=void\ mostrarTablero()
+comment3.params=int1\ int2\ int3\ int4\ int5\ int6
+comment3.target=java.lang.String\ jugar(Intento,\ Intento,\ Intento,\ Intento,\ Intento,\ Intento)
+numComments=4

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=TableroOrdenadoEspiral
+comment1.params=tam
+comment1.target=TableroOrdenadoEspiral(int)
+comment2.params=
+comment2.target=void\ mostrarTablero()
+comment3.params=mat
+comment3.target=void\ setTablero(int[][])
+comment4.params=
+comment4.target=void\ ordenarEnEspiral()
+numComments=5
