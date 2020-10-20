@@ -1,7 +1,7 @@
 #BlueJ class context
-comment0.target=TableroOrdenadoEspiral
+comment0.target=Espiral
 comment1.params=tam
-comment1.target=TableroOrdenadoEspiral(int)
+comment1.target=Espiral(int)
 comment2.params=
 comment2.target=void\ mostrarTablero()
 comment3.params=mat

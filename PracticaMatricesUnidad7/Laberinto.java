@@ -13,7 +13,7 @@ public class Laberinto{
         jardines[filaD][columD]='D';
     }
     private char MuroOCamino(){
-        return Math.random()>0.6?'M':'-';
+        return Math.random()>0.6?'M':'-';//para que haya 60% de espacios libres y 40% de muros aproximadamente
     }
     public void mostrarJardines(){
         System.out.println();
