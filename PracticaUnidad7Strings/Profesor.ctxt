@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Profesor
+comment1.params=cantInformes
+comment1.target=Profesor(int)
+comment2.params=
+comment2.target=void\ organizarInformes()
+comment3.params=
+comment3.target=void\ generarReporte()
+numComments=4
