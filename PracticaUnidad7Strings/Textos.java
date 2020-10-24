@@ -1,30 +1,43 @@
 public class Textos{
     private String texto;
-    private int contPalabras;
-    private String[] palabras;
     public Textos(String texto){
         this.texto=texto;
-        contPalabras=1;
-        palabras=new String[300];
     }
-    public void contarPalabras(){
-        String palabra="";
+    public static String[] getPalabras(String texto){
+        int cantPalabras=0;
+        if(texto!=""){
+            cantPalabras=1;
+        }
         char c;
         for(int i=0;i<texto.length();i++){
             c=texto.charAt(i);
-            if((c==' '||c==','||c=='.')&&!(palabra.equals(""))){
-                if(palabra.charAt(0)==' ') palabra=palabra.substring(1);
-                palabras[contPalabras-1]=palabra;
-                contPalabras++;
+            if(c==' ')
+                cantPalabras++;
+        }
+        String[] res=new String[cantPalabras];
+        String palabra="";
+        int index=0;
+        for(int i=0;i<texto.length();i++){
+            c=texto.charAt(i);
+            if((c==' '||c==','||c=='.'||i==texto.length()-1)&&!(palabra.equals(""))){
+                if(palabra.charAt(0)==' ') 
+                    palabra=palabra.substring(1);
+                if(i==texto.length()-1&&c!='.')
+                    palabra=palabra+texto.substring(i);
+                res[index]=palabra;
+                index++;
                 palabra="";
             }else{
                 palabra=palabra+c;
             }
         }
-        System.out.println("El texto tiene "+(contPalabras-1)+" palabras");
+        return res;
     }
     public void mostrarPalabras(){
-        for(int i=0;i<contPalabras-1;i++)
+        String[] palabras=getPalabras(texto);
+        int tamTexto=palabras.length; 
+        System.out.println("El texto tiene "+tamTexto+" palabras");
+        for(int i=0;i<tamTexto;i++)
             System.out.println(palabras[i]);
     }
 }

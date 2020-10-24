@@ -13,26 +13,23 @@ public class Informe{
     }
     public void corregirNombres(){
         for(int i=0;i<nombres.length;i++){
-            String nombre=nombres[i];
-            String palabra="";
-            String nombreCorregido="";
-            char c;
-            for(int j=0;j<nombres[i].length();j++){
-                c=nombre.charAt(j);
-                if(c==' '||j==(nombre.length()-1)){
-                    String primeraLetra=palabra.substring(0,1);
-                    primeraLetra=primeraLetra.toUpperCase();
-                    String resto=palabra.substring(1);
-                    if(j==nombre.length()-1)
-                        resto=resto+nombre.substring(j);
-                    resto=resto.toLowerCase();
-                    nombreCorregido=nombreCorregido+primeraLetra+resto+" ";
-                    palabra="";
-                }else{
-                    palabra=palabra+c;
-                }
-            }
-            nombres[i]=nombreCorregido;
+            String[] nombreYApellidos=Textos.getPalabras(nombres[i]);
+            for(int j=0;j<nombreYApellidos.length;j++)
+                nombreYApellidos[j]=corregirPalabra(nombreYApellidos[j]);
+            nombres[i]="";
+            for(int j=0;j<nombreYApellidos.length;j++)
+                nombres[i]=nombres[i]+nombreYApellidos[j]+" ";    
+        }
+    }
+    private String corregirPalabra(String palabra){
+        if(palabra!=""&&palabra.length()>1){
+            String primeraLetra=palabra.substring(0,1);
+            primeraLetra=primeraLetra.toUpperCase();
+            String resto=palabra.substring(1);
+            resto=resto.toLowerCase();
+            return primeraLetra+resto;
+        }else{
+            return palabra.toUpperCase();
         }
     }
     public void ordenarAlfabeticamente(){

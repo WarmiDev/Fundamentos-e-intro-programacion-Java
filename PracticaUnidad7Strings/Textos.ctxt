@@ -2,8 +2,8 @@
 comment0.target=Textos
 comment1.params=texto
 comment1.target=Textos(java.lang.String)
-comment2.params=
-comment2.target=void\ contarPalabras()
+comment2.params=texto
+comment2.target=java.lang.String[]\ getPalabras(java.lang.String)
 comment3.params=
 comment3.target=void\ mostrarPalabras()
 numComments=4
