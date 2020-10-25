@@ -19,16 +19,15 @@ public class Textos{
         int index=0;
         for(int i=0;i<texto.length();i++){
             c=texto.charAt(i);
-            if((c==' '||c==','||c=='.'||i==texto.length()-1)&&!(palabra.equals(""))){
-                if(palabra.charAt(0)==' ') 
-                    palabra=palabra.substring(1);
-                if(i==texto.length()-1&&c!='.')
-                    palabra=palabra+texto.substring(i);
+            if(!(c==' '||c==','||c=='.')){
+                palabra=palabra+c;  
                 res[index]=palabra;
-                index++;
-                palabra="";
             }else{
-                palabra=palabra+c;
+                
+                if(c==' '){
+                    index++;
+                    palabra="";
+                }
             }
         }
         return res;

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Ciudad
+comment1.params=calle
+comment1.target=Ciudad(java.lang.String)
+comment2.params=
+comment2.target=void\ contarBaches()
+numComments=3

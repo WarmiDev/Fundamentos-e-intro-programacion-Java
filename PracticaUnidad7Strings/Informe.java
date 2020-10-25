@@ -34,10 +34,13 @@ public class Informe{
     }
     public void ordenarAlfabeticamente(){
         for(int i=0;i<nombres.length-1;i++){
-            if(nombres[i].compareTo(nombres[i+1])>0){
-                String aux=nombres[i];
-                nombres[i]=nombres[i+1];
-                nombres[i+1]=aux;
+            String aux;
+            for(int j=i+1;j<nombres.length;j++){
+                if(nombres[i].compareTo(nombres[j])>0){
+                    aux=nombres[i];
+                    nombres[i]=nombres[j];
+                    nombres[j]=aux;
+                }
             }
         }
     }

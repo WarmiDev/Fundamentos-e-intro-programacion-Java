@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=EspaciosExtras
+comment1.params=texto
+comment1.target=EspaciosExtras(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ eliminarEspaciosExtras()
+numComments=3
