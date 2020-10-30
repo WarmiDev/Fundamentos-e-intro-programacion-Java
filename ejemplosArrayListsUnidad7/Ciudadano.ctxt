@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Ciudadano
+comment1.params=sueldo
+comment1.target=Ciudadano(int)
+comment2.params=monto
+comment2.target=boolean\ hacerInforme(int)
+comment3.params=
+comment3.target=void\ visualizarInforme()
+numComments=4
