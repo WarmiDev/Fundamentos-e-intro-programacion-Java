@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Ficha
+comment1.params=turno
+comment1.target=Ficha(int)
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+numComments=3

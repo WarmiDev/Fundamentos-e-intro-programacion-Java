@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Persona
+comment1.params=nombre\ sexo\ edad
+comment1.target=Persona(java.lang.String,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment3.params=
+comment3.target=java.lang.String\ getSexo()
+comment4.params=
+comment4.target=int\ getEdad()
+comment5.params=p
+comment5.target=void\ agregarAmigos(Persona)
+comment6.params=p
+comment6.target=void\ mostrarAmigosEnComun(Persona)
+comment6.text=public\ void\ mostrarAmigosEnComun2(Persona\ p1,Persona\ p2){\r\n\ \ \ \ \ \ \ \ if(p1.amigos.contains(p2)&&p2.amigos.contains(p1)){\r\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("Amigos\ en\ comun\:");\r\n\ \ \ \ \ \ \ \ \ \ \ \ String\ nom1,nom2,sexo1,sexo2;\r\n\ \ \ \ \ \ \ \ \ \ \ \ int\ edad1,edad2;\r\n\ \ \ \ \ \ \ \ \ \ \ \ for(Persona\ per1\:p1.amigos){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ nom1\=per1.getNombre();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sexo1\=per1.getSexo();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ edad1\=per1.getEdad();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ for(Persona\ per2\:p2.amigos){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ nom2\=per2.getNombre();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sexo2\=per2.getSexo();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ edad2\=per2.getEdad();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if(nom1.equals(nom2)&&sexo1.equals(sexo2)&&(edad1\=\=edad2))\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ System.out.println(nom1+"\ de\ sexo\ "+sexo1+"\ de\ "+edad1+"\ anios.");\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ else\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("No\ son\ amigos\ en\ comun");\r\n}
+numComments=7

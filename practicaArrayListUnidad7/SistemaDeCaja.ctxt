@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SistemaDeCaja
+comment1.params=
+comment1.target=SistemaDeCaja()
+comment2.params=
+comment2.target=java.lang.String\ generarFicha()
+comment3.params=tiempoDeAtencion
+comment3.target=void\ atenderFicha(int)
+comment4.params=
+comment4.target=void\ mostrarFichasAtendidas()
+comment5.params=
+comment5.target=void\ mostrarFichasEnEspera()
+numComments=6
