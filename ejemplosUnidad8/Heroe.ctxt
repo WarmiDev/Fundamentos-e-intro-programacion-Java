@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Heroe
+comment1.params=nom\ ptsS\ ptsD\ vel\ x\ y
+comment1.target=Heroe(java.lang.String,\ int,\ int,\ int,\ int,\ int)
+comment2.params=
+comment2.target=void\ habilitarItem()
+comment3.params=
+comment3.target=void\ deshabilitarItem()
+comment4.params=
+comment4.target=void\ caminar()
+numComments=5

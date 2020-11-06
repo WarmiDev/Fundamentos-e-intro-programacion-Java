@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Juego
+comment1.params=
+comment1.target=Juego()
+comment2.params=j
+comment2.target=void\ agregarJugador(Jugador)
+comment3.params=nomb
+comment3.target=void\ caminar(java.lang.String)
+comment4.params=y
+comment4.target=boolean\ esValido(int)
+comment5.params=
+comment5.target=void\ verMapa()
+numComments=6

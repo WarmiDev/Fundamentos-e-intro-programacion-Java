@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Monstruo
+comment1.params=nom\ ptsS\ ptsD\ vel\ x\ y
+comment1.target=Monstruo(java.lang.String,\ int,\ int,\ int,\ int,\ int)
+numComments=2
