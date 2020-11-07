@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Cliente
+comment1.params=
+comment1.target=Cliente()
+comment2.params=nueva
+comment2.target=void\ agregarCuenta(Cuenta)
+comment3.params=
+comment3.target=int\ contarCuentasCorrientes()
+comment4.params=
+comment4.target=int\ contarCuentasAhorros()
+numComments=5
