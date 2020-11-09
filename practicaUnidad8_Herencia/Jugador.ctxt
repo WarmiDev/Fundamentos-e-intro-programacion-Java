@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Jugador
+comment1.params=nombre
+comment1.target=Jugador(java.lang.String)
+comment2.params=
+comment2.target=char\ getFicha()
+comment3.params=
+comment3.target=int\ getPtsEspiritu()
+comment4.params=
+comment4.target=int\ getMonedasOro()
+comment5.params=
+comment5.target=int\ getPosicion()
+comment6.params=p
+comment6.target=void\ setPtsEspiritu(int)
+comment7.params=m
+comment7.target=void\ setMonedasOro(int)
+comment8.params=p
+comment8.target=void\ setPosicion(int)
+numComments=9

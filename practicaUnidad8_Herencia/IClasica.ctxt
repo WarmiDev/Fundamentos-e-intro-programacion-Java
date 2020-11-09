@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=IClasica
+comment1.params=nombre\ edad\ codigo\ dir\ tra
+comment1.target=IClasica(java.lang.String,\ int,\ int,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ nuevaVisita()
+comment3.params=
+comment3.target=int\ consultarPuntaje()
+numComments=4

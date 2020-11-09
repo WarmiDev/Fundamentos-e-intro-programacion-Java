@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=OficinaRegistro
+comment1.params=
+comment1.target=OficinaRegistro()
+comment2.params=
+comment2.target=int\ cantIdentificaciones()
+comment3.params=
+comment3.target=java.lang.String\ cantIdentificPorTipo()
+numComments=4

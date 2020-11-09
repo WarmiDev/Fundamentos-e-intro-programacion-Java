@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=IMagna
+comment1.params=nombre\ edad\ codigo
+comment1.target=IMagna(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=void\ nuevaVisita()
+comment3.params=costoLugar
+comment3.target=int\ aplicarDescuento(int)
+numComments=4

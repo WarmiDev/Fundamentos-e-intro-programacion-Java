@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=JuegoSenderoTenebros
+comment1.params=
+comment1.target=JuegoSenderoTenebros()
+comment2.params=j1\ j2
+comment2.target=void\ agregarJugadores(Jugador,\ Jugador)
+comment3.params=
+comment3.target=void\ jugar()
+comment4.params=
+comment4.target=void\ turno()
+comment5.params=
+comment5.target=void\ mostrarJugadores()
+comment6.params=
+comment6.target=void\ mostrarTablero()
+comment7.params=
+comment7.target=int\ lanzarDado()
+numComments=8

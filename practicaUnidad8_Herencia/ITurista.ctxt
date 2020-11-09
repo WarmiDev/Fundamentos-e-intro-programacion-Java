@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ITurista
+comment1.params=nombre\ edad\ codigo\ vig\ nac
+comment1.target=ITurista(java.lang.String,\ int,\ int,\ int,\ java.lang.String)
+comment2.params=diaActual
+comment2.target=boolean\ comprobarVigencia(int)
+numComments=3

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Identificacion
+comment1.params=nombre\ edad\ codigo
+comment1.target=Identificacion(java.lang.String,\ int,\ int)
+numComments=2
