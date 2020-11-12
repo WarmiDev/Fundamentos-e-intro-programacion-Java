@@ -1,5 +1,7 @@
 #BlueJ class context
 comment0.target=Ganador
 comment1.params=
-comment1.target=java.lang.String\ mostrarCaracteristicasCasilla()
-numComments=2
+comment1.target=Ganador()
+comment2.params=
+comment2.target=java.lang.String\ mostrarCaracteristicasCasilla()
+numComments=3

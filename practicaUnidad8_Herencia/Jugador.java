@@ -1,12 +1,13 @@
-public class Jugador{
+public class Jugador extends Casilla{
     int ptsEspiritu,monedasOro,posicion;
-    char ficha;
-    boolean estado;
-    public Jugador(String nombre){
-        ficha=nombre.charAt(0);
+    public Jugador(char inicial){
+        super(inicial);
         ptsEspiritu=0;
         monedasOro=0;
-        posicion=-1;
+        posicion=0;
+    }
+    public String mostrarCaracteristicasCasilla(){
+        return "Jugador con ficha: "+ficha;
     }
     public char getFicha(){
         return ficha;
