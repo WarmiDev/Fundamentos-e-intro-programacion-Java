@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=RompeHielo
+comment1.params=cantFlechas
+comment1.target=RompeHielo(int)
+comment2.params=
+comment2.target=void\ jugar()
+comment3.params=
+comment3.target=void\ arriba()
+comment4.params=
+comment4.target=void\ abajo()
+comment5.params=
+comment5.target=void\ disparar()
+comment6.params=
+comment6.target=int\ hallarYHieloProximo()
+comment7.params=
+comment7.target=void\ evaluarEstado()
+comment8.params=
+comment8.target=void\ acomodarHielos()
+comment9.params=
+comment9.target=void\ mostrarCueva()
+numComments=10

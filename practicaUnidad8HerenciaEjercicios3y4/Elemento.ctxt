@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Elemento
+comment1.params=x\ y\ s
+comment1.target=Elemento(int,\ int,\ char)
+numComments=2

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Reloj
+comment1.params=horaActual\ minutoActual
+comment1.target=Reloj(int,\ int)
+comment2.params=
+comment2.target=void\ mostrarHora()
+comment3.params=
+comment3.target=void\ caminar()
+comment4.params=
+comment4.target=void\ revisarFormato()
+comment5.params=n
+comment5.target=java.lang.String\ corregir(int)
+numComments=6

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=RDigital
+comment1.params=horaActual\ minutoActual
+comment1.target=RDigital(int,\ int)
+comment2.params=
+comment2.target=void\ mostrarHora()
+comment3.params=
+comment3.target=void\ revisarFormato()
+numComments=4
