@@ -7,4 +7,5 @@ abstract public class Casilla{
     public char getFicha(){
         return ficha;
     }
+    abstract public int efectoCasilla(Jugador j);
 }

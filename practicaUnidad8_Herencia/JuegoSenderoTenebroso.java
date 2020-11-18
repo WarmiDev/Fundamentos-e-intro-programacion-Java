@@ -1,10 +1,10 @@
 import java.util.ArrayList;
-public class JuegoSenderoTenebros{
+public class JuegoSenderoTenebroso{
     private Casilla[][] tablero;
-    private Jugador j1,j2;
-    private int marcadorTurno;
+    public Jugador j1,j2;
     private boolean juegoActivo;
-    public JuegoSenderoTenebros(){
+    private int marcadorTurno;
+    public JuegoSenderoTenebroso(){
         tablero=new Casilla[3][60];
         int contadorAbisales=0;
         //cargamos el tablero aleatoriamente
@@ -51,7 +51,8 @@ public class JuegoSenderoTenebros{
                 turno(j1);
             else
                 turno(j2);
-            marcadorTurno*=-1;
+            juegoActivo=j1.estadoJugador==EstadoJugador.JUGANDO&&
+                j2.estadoJugador==EstadoJugador.JUGANDO;
         }
     }
     private void turno(Jugador j){
@@ -73,50 +74,28 @@ public class JuegoSenderoTenebros{
         }
         mostrarTablero();
         Casilla c=tablero[0][j.getPosicion()];
-        if(c!=null)
+        if(c!=null){//pq la posicion 0 es null, al iniciar el juego los jugadores estan ahi
             System.out.println(c.mostrarCaracteristicasCasilla());
-        if(c instanceof Negro)
-            j.setPtsEspiritu(j.getPtsEspiritu()+3);
-        if(c instanceof Blanco)
-            j.setMonedasOro(j.getMonedasOro()+3);
-        if(c instanceof TMiedo){
-            if(j.getPtsEspiritu()>=5){
-                j.setPtsEspiritu(j.getPtsEspiritu()-5);    
-            }else{//pierde un turno
-                marcadorTurno*=-1;
-                if(marcadorTurno==1)
-                    turno(j1);
-                else
-                    turno(j2);
-            }   
-        }
-        if(c instanceof TCodicia){
-            if(j.getMonedasOro()>=2){
-                j.setMonedasOro(j.getMonedasOro()/2);    
-            }else{//pierde tantos turnos como monedas de oro
-                marcadorTurno*=-1;
-                for(int k=0;k<j.getMonedasOro();k++){
-                    if(marcadorTurno==1)
-                        turno(j1);
-                    else
-                        turno(j2);
+            if(c instanceof Miedoso){
+                posicionAnterior=j.getPosicion();
+                j.setPosicion(j.getPosicion()-j.getPtsEspiritu()-j.getMonedasOro());
+                    if(j.getPosicion()<0)
+                        j.setPosicion(0);
+                if(marcadorTurno==1){
+                    tablero[1][posicionAnterior]=null;
+                    tablero[1][j.getPosicion()]=j1;
+                }else{
+                    tablero[2][posicionAnterior]=null;
+                    tablero[2][j.getPosicion()]=j2;
                 }
+                mostrarTablero();
+                marcadorTurno*=-1;
             }
+            else    
+                marcadorTurno*=c.efectoCasilla(j);
+            
         }
-        if(c instanceof Miedoso){
-            posicionAnterior=j.getPosicion();
-            j.setPosicion(j.getPosicion()-j.getPtsEspiritu()-j.getMonedasOro());
-                if(j.getPosicion()<0)
-                    j.setPosicion(0);
-            if(marcadorTurno==1){
-                tablero[1][posicionAnterior]=null;
-                tablero[1][j.getPosicion()]=j1;
-            }else{
-                tablero[2][posicionAnterior]=null;
-                tablero[2][j.getPosicion()]=j2;
-            }
-            mostrarTablero();
-        }
+        /*
         if(c instanceof Suertudo){
             if(marcadorTurno==1)
                 turno(j1);
@@ -126,7 +105,7 @@ public class JuegoSenderoTenebros{
         if(c instanceof Abisal)
             juegoActivo=false;
         if(c instanceof Ganador)
-            juegoActivo=false;
+            juegoActivo=false;*/
     }
     public void mostrarTablero(){
         System.out.println();

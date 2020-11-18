@@ -2,6 +2,4 @@
 comment0.target=Flecha
 comment1.params=x
 comment1.target=Flecha(int)
-comment2.params=
-comment2.target=void\ lanzarFlecha()
-numComments=3
+numComments=2

@@ -2,4 +2,6 @@
 comment0.target=TCodicia
 comment1.params=
 comment1.target=java.lang.String\ mostrarCaracteristicasCasilla()
-numComments=2
+comment2.params=j
+comment2.target=int\ efectoCasilla(Jugador)
+numComments=3

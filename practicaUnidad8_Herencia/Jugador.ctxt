@@ -2,6 +2,8 @@
 comment0.target=Jugador
 comment1.params=inicial
 comment1.target=Jugador(char)
+comment10.params=j
+comment10.target=int\ efectoCasilla(Jugador)
 comment2.params=
 comment2.target=java.lang.String\ mostrarCaracteristicasCasilla()
 comment3.params=
@@ -18,4 +20,4 @@ comment8.params=m
 comment8.target=void\ setMonedasOro(int)
 comment9.params=p
 comment9.target=void\ setPosicion(int)
-numComments=10
+numComments=11

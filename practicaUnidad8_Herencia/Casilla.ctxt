@@ -6,4 +6,6 @@ comment2.params=
 comment2.target=java.lang.String\ mostrarCaracteristicasCasilla()
 comment3.params=
 comment3.target=char\ getFicha()
-numComments=4
+comment4.params=j
+comment4.target=int\ efectoCasilla(Jugador)
+numComments=5

@@ -2,4 +2,6 @@
 comment0.target=Trampa
 comment1.params=
 comment1.target=Trampa()
-numComments=2
+comment2.params=j
+comment2.target=int\ efectoCasilla(Jugador)
+numComments=3

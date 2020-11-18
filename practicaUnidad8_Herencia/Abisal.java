@@ -5,4 +5,8 @@ public class Abisal extends Casilla{
     public String mostrarCaracteristicasCasilla(){
         return "PERDISTE!!!";
     }
+    public int efectoCasilla(Jugador j){
+        j.estadoJugador=EstadoJugador.PERDIO;
+        return 0;
+    }
 }
