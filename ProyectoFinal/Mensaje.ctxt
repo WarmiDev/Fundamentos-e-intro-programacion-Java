@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Mensaje
+comment1.params=textoMensaje\ numRem\ numDest
+comment1.target=Mensaje(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=int\ getNumRemitente()
+comment3.params=
+comment3.target=int\ getNumDestinatario()
+comment4.params=
+comment4.target=java.lang.String\ getHoraEnvio()
+comment5.params=
+comment5.target=java.lang.String\ getEstado()
+comment6.params=
+comment6.target=java.lang.String\ getContenido()
+comment7.params=
+comment7.target=void\ mensajeLeido()
+comment8.params=
+comment8.target=void\ mensajeRecibido()
+numComments=9
